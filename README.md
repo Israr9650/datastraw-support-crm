@@ -14,18 +14,10 @@ The project was designed with a focus on simplicity, usability, and clean code s
 
 ---
 
-## 🖼️ Screenshots & Demo
+## 🖼️  Demo
 
-*Live Demo:* [Add deployed URL here after deployment]
+*Live Demo:* https://datastraw-support-crm-2f44.vercel.app/
 
-### Desktop Dashboard
-> _[Add screenshot of Home Dashboard here]_
-
-### Ticket Details & Internal Notes
-> _[Add screenshot of Ticket Details page here]_
-
-### Create Ticket Form
-> _[Add screenshot of Create Ticket form here]_
 
 ---
 
@@ -190,7 +182,7 @@ CLIENT_URL=http://localhost:5173
 ### Frontend Environment Variables (`client/.env`)
 Create a `.env` file inside the `client/` directory:
 ```env
-VITE_API_URL=http://localhost:5000/api
+VITE_API_URL=https://datastraw-support-crm-2f44.vercel.app/api
 ```
 
 ---
@@ -249,7 +241,7 @@ The project is structured for deployment on platforms such as Vercel, Render, or
 - **Frontend**: Can be built using `npm run build` inside `client/` and deployed to Vercel or Netlify.
 - **Backend**: Can be deployed to Render or Railway using `npm run start` (`node src/server.js`) inside `server/`.
 
-*Live Application Link:* [Add deployed URL here after deployment]
+*Live Application Link:* https://datastraw-support-crm-2f44.vercel.app/
 
 ---
 
